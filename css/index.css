@@ -1,0 +1,406 @@
+* {
+    font-family: 'Nunito';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+header{
+    z-index: 1000;
+
+}
+.post{
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.dop{
+    margin-bottom: 70px;
+}
+
+.nav-link{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+
+.navbar-nav{
+    width: 100%;
+}
+.mad {
+    border-radius: 20%;
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.im {
+    
+    margin-right: -10px;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+}
+.navbar-nav{
+    background-color: white;
+    width: 100%;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.navbar{
+    z-index: 10;
+    padding: 0px;
+    margin: 0px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(73, 73, 73);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+.logo {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 110px;
+    top: 10px;
+}
+
+.verh{
+    margin-top: -30px;
+    background-color: #29837E;
+    z-index: 0;
+    top: 55px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+.verh a {
+    margin-left: 5px;
+}
+
+.verh h1 {
+    margin-top: 20px;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.verh p{
+    margin-left: 10px;
+}
+
+.number{
+   text-decoration: none;
+   color: white;
+}
+
+
+.gruz{
+    margin: 0px;
+    width:100%;
+    background-color: #29837E;
+}
+
+.gruz p {
+    width: 100%;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.gruz img{
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 20px;
+    outline: solid 2px white;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+li{
+    color: white;
+}
+
+.pgs {
+    outline: solid 2px white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.048);
+    
+}
+.wat{
+    margin: 0px;
+    width:100%;
+    background-color: #29837E;
+}
+
+.one {
+    margin-bottom: 10px;
+    text-align: center;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding-bottom: 15px;
+
+}
+
+.cont img{
+    width: 60px;
+    text-align: center;
+    outline:  2px solid #29837E;
+    background-color: #29837E; 
+}
+.cont{
+    margin: 0px;
+    width: 100%;
+    background-color: #29837E;
+    justify-content: center;
+    text-align: center;
+}
+
+.two{
+    background-color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    position: relative;
+}
+.er{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #29837E;
+    z-index: -1;
+}
+.two h2{
+    color: #29837E;
+}
+.two li{
+    color: #000000;
+}
+
+.cont h2{
+    color: #ffffff;
+}
+
+.contact{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+.doroga{
+    text-align: center;
+    width: 100%;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    background-color: white;
+}
+
+
+.gal{
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.otvet{
+    margin-bottom: 40px;
+}
+
+.doroga h2{
+    margin-top: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.best{
+    width: 120px;
+}
+
+.opi{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.baal {
+    margin: 0px 40px;
+}
+
+.otzv{
+    margin: 0px;
+    justify-content: center;
+}
+.otzv h2{
+    color: #000000;
+}
+
+.tablotzv{
+    text-align: center;
+    margin: 10px;
+    border: #29837E 2px solid;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 250px;
+    max-width: 300px;
+
+}
+.tablotzv img{
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    margin: 5px;
+
+}
+.tablotzv p{
+    text-align:left ;
+    margin-bottom: 0px;
+}
+
+.tablotzv h3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.otzvtext{
+    display: flex;
+    width: 85%;
+    margin: 0px;
+}
+
+footer .row{
+    margin: 0px;
+}
+footer{
+    background-color: #29837E;
+    color: white;
+    margin: 0px;
+    width: 100%;
+}
+footer p {
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+footer a{
+    font-size: 13px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+}
+.up_button{
+    position: fixed;
+    z-index: 10000;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+}
+@media(min-width:900px) {
+    .navbar-nav{
+        background-color: #ffffff00;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+
+    }
+    .nav-link{
+        padding: 0px;
+        font-size: 30px;
+        display:inline;
+    }
+
+    .verh{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .otvet{
+        font-size: 20px;
+    }
+    .gal{
+        width: 90px;
+    }
+    li{
+        font-size: 25px;
+    }
+    .contact img{
+        width: 90px;
+    }
+
+    .contact :active{
+        width: 80px;
+    }
+    .best{
+        transition: scale 0.5s;
+    }
+    .best:hover{
+        scale: 1.2;
+    }
+
+    .nav-item{
+        transition: scale 0.5s;
+        border-radius: 25px;
+    }
+    .nav-item:hover{
+        scale: 0.95;
+    }
+
+    .car{
+        transition: all 0.5s;
+    }
+    .car:hover{
+        outline: 5px dashed white;
+        scale: 0.97;
+    }
+    .tablotzv{
+        transition: scale 0.5s;
+    }
+
+    .tablotzv:hover{
+        scale: 0.97;
+    }
+    footer a{
+        font-size: 20px;
+    }
+    footer .col {
+       padding-left: 40px;
+    }
+    .up_button{
+        position: fixed;
+        z-index: 10000;
+        bottom: 20px;
+        right: 20px;
+        height: 100px;
+    }
+
+}
+
